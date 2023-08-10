@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="background">
+        <h1>To Do List</h1>
+        <div class="do-div boxes">
+            <h2>To Do</h2>
+            <div class="tasks-do task"></div>
+            <div class="input-div">
+                <input type="text" class="do-input" placeholder="+ Add task">
+                <button class="add-task-button">Add</button>
+            </div>
+        </div>
+        <div class="doing-div boxes">
+            <h2>Doing</h2>
+            <div class="tasks-doing task"></div>
+            <div class="input-div">
+                <input type="text" class="doing-input" placeholder="+ Add task">
+                <button class="add-task-button">Add</button>
+            </div>
+        </div>
+        <div class="done-div boxes">
+            <h2>Done</h2>
+            <div class="tasks-done task"></div>
+            <div class="input-div">
+                <input type="text" class="done-input" placeholder="+ Add task">
+                <button class="add-task-button">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
